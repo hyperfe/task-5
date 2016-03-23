@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+	}
+body{
+	width:1349px;
+	background-color:#ccc;
+	font-family:"微软雅黑";
+	font-size:15px;
+	line-height:30px;
+	position:relative;
+	}
+.header{
+	width:100%;
+	background-color:#333;
+	overflow:hidden;
+	zoom:1;
+	}
+.logo{
+	float:left;
+	margin-left:35px;
+	width:150px;
+	height:60px;
+	}
+.nav li{
+	float:right;
+	margin:15px 30px;
+	}
+.nav a{
+	text-decoration:none;
+	color:#fff;
+	}
+a:hover,
+a:active{
+	color:#CCC;
+	}
+.main{
+	width:870px;
+	margin:20px;
+	padding:15px;
+	background-color:#FFF;
+	border:1px solid #999;
+	border-right:2px solid #999;
+	border-bottom:2px solid #999;
+	}
+h3{
+	color:#999;
+	}
+.author,
+.publictime{
+	color:#999;
+	font-size:12px;
+	}
+.ulist{
+	list-style:none;
+	}
+.picshow img{
+	width:130px;
+	height:100px;
+	}
+.picshow{
+	border:1px solid #999;
+	width:130px;
+	height:130px;
+	margin-left:50px;
+	margin-bottom:20px;
+	padding:10px;
+    text-align:center;
+	}
+.olist{
+	margin-left:30px;
+	}
+.t1{
+	font-size:12px;
+	border-right:0.5px solid #999;
+	width:100%;
+	border-collapse:collapse;
+	}
+.t1 .tablehead{
+	background-color:black;
+	color:#fff;
+	}
+.t1 .tablebottom{
+	background-color:#999; 
+	font-weight:bold;
+	}
+.t1 th,.t1 td{
+	width:45%;
+	text-align:left;
+	padding:5px;
+	margin:0;
+	border-bottom:0.5px solid #999;
+	border-left:0.5px solid #999;
+	}
+.t1 .thirdcol{
+	width:15%;
+	border-bottom:0.5px solid #999;
+	border-left:0.5px solid #999;
+	}
+
+.mainform{
+	margin:50px 20px 20px 20px;
+	font-size:12px;
+	width:310px;
+	}
+.input-txt{
+	width:150px;
+	}
+.submit{
+	width:100%;
+	height:40px;
+	color:#fff;
+	background-color:#00F;
+	border-radius:10px;
+	}
+.mainform p{
+	margin-left:100px;
+	color:#999;
+	}
+.tips{
+	display:inline-block;
+	width:100px;
+	height:20px;
+	position:relative;
+	}
+.tips span{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+.desc{
+	width:60%;
+	height:100px;
+	margin-top:30px;
+	}
+.special{
+	height:100px;
+	}
+.footer{
+	width:100%;
+	height:50px;
+	background-color:#000;
+	text-align:center;
+	}
+.footer p{
+	color:#fff;
+	line-height:50px;
+	}
+
+.sidebar{
+	width:350px;
+	position:absolute;
+	right:0px;
+	top:60px;
+	}
+.content{
+	
+	
+	}
